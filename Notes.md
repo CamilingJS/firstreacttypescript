@@ -13,3 +13,7 @@
 ### Which means there may be additional componenents assigned to it.
 ### 'Child' might have properties assigned to it like 'propTypes' and 'contextTypes'
 ### 'Child' will receive props of type 'ChildProps' 
+### const [guests, setGuests] = useState<string[]>([]);
+#### here we set guests as type of array of strings in teh useState hook <string[]>
+### const [name, setName] = useState('');
+#### here when making use of state inside of React we set the default value of empty strings, if TS can figure out what type that value is all is good, if not then we define the type inside angle brackets 
