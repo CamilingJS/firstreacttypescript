@@ -17,3 +17,6 @@
 #### here we set guests as type of array of strings in teh useState hook <string[]>
 ### const [name, setName] = useState('');
 #### here when making use of state inside of React we set the default value of empty strings, if TS can figure out what type that value is all is good, if not then we define the type inside angle brackets 
+### {user && user.name}
+#### access user.name if user is a truthy value. If user is defined then we can print out user.name 
+
